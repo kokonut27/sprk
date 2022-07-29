@@ -11,7 +11,7 @@ export default function Home() {
         <meta content="Edit videos, correct colorisation, and add film effects, for free, in your own way, as soon as now." property="og:description" />
         <meta content="https://sprk.vercel.app/" property="og:url" />
     		<meta property="og:type" content="website" />
-        <meta content="" property="og:image" />
+        <meta content="https://sprk.vercel.app/sprk.png" property="og:image" />
         <meta id="embed-color" content="#FA8128" data-react-helmet="true" name="theme-color" />
         <link rel="icon" href="/sprk_favicon.png" />
       </Head>
