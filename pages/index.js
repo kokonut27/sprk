@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Sprk</title>
         <meta content="Sprk" property="og:title" />
-        <meta content="Edit videos, correct colorisation, and add film effects, for free, in your own way, as soon as now." property="og:description" />
+        <meta content="Edit videos, correct colorization, and add film effects, for free, in your own way, as soon as now." property="og:description" />
         <meta content="https://sprk.vercel.app/" property="og:url" />
     		<meta property="og:type" content="website" />
         <meta content="https://sprk.vercel.app/sprk.png" property="og:image" />
@@ -17,9 +17,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className={styles.header}>
+          <h1>Sprk</h1>
+          <a href="https://replit.com/">Hosted On Replit</a>
+        </div>
+        <div className={styles.navbar}>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/edit">Edit</a></li>
+          </ul>
+        </div>
 
         <p className={styles.description}>
           Get started by editing{' '}
